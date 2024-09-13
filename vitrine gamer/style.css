@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(/ressources/ella-don-Ff-D16tJAuo-unsplash.jpg);
+    background-position: 50% 37%;
+}
+
+body.pproduct {
+    background-image: url(/ressources/slejven-djurakovic-0uXzoEzYZ4I-unsplash.jpg);
+    background-position: 40%;
+}
+
+body.ppproduct {
+    background-image: url(/ressources/nasa-Yj1M5riCKk4-unsplash.jpg);
+    background-position: 80% 70%;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.hero {
+position: relative;
+width: 30%; 
+transform: translate(-50%,0%);
+top: 50%;
+left: 50%;
+}
+.hero {
+     text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.hero .btn {
+    background-color: #f60;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 1px 4px 15px 12px;
+}
+
+.product .add-to-cart {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+section.cart-items  {
+    position: relative;
+    text-align: center;
+}
+
+section.cart-items h2 {
+    color: blue;
+    font-size: 3rem;
+}
+
+button.checkout {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.product img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    max-height: 3%;
+}
+
+footer p {
+    position: relative;
+    margin: 0;
+    }
